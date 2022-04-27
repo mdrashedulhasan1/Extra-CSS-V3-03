@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            line-height: 200px;
+        }
+        #box-1{
+            background-color: rgb(195, 147, 35);
+            
+        }
+        #box-2{
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            left: 100px;
+        }
+        #box-3{
+            background-color: brown;
+        }
+        .main{
+            position: relative;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Position</h1>
+    <div class="main">
+        <div id="box-1" class="box">1</div>
+        <div id="box-2" class="box">2</div>
+        <div id="box-3" class="box">3</div>
+    </div>
+</body>
+</html>

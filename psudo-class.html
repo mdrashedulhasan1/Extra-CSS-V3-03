@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo Class</title>
+    <style>
+        /* ul li:first-child{
+            color: blue;
+        }
+        ul li:last-child{
+            color: blue;
+        } */
+        ul li:nth-child(2){
+            color: rgba(74, 201, 32, 0.992);
+        }
+        ul li:nth-child(2n){
+            color: #c920aafd;
+        }
+        ul li:nth-child(2n+1){
+            color: #26d9e0fd;
+        }
+        ul li::before{
+            content: 'hello ';
+            color: red;
+        }
+        ul li::after{
+            content: '!';
+            color: red;
+        }
+        input:focus{
+            width: 200px;
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>tapu</li>
+        <li>sarowal</li>
+        <li>rakib</li>
+        <li>rashedul</li>
+        <li>hasan</li>
+    </ul>
+    <input type="email" name="" id="">
+</body>
+</html>
